@@ -3258,6 +3258,11 @@ decode-uri-component@^0.2.0:
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
+dedent@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
+  integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
+
 deep-equal@^1.0.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.1.1.tgz#b5c98c942ceffaf7cb051e24e1434a25a2e6076a"
@@ -4712,9 +4717,9 @@ hmac-drbg@^1.0.0:
     minimalistic-crypto-utils "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
-  integrity sha512-kssjab8CvdXfcXMXVcvsXum4Hwdq9XGtRD3TteMEvEbq0LXyiNQr6AprqKqfeaDXze7SxWvRxdpwE6ku7ikLkg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -7377,6 +7382,11 @@ pkg-up@2.0.0:
   dependencies:
     find-up "^2.1.0"
 
+plural-forms@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/plural-forms/-/plural-forms-0.5.3.tgz#63c97b0f3be6ead92276d6f6ae81996508997911"
+  integrity sha512-t/hkjsTeDwaK9n/z6tUiSHySTC8sPnTiS5YF3Y5p4L+eomzXh7O0vEemkjwb68/82w0Rjw4uED3X84X7vXf9lg==
+
 pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
@@ -9809,6 +9819,14 @@ tsutils@^3.17.1:
   integrity sha512-kzeQ5B8H3w60nFY2g8cJIuH7JDpsALXySGtwGJ0p2LSjLgay3NdIpqq5SoOBe46bKDW2iq25irHCr8wjomUS2g==
   dependencies:
     tslib "^1.8.1"
+
+ttag@^1.7.21:
+  version "1.7.24"
+  resolved "https://registry.yarnpkg.com/ttag/-/ttag-1.7.24.tgz#3da0eb52ed3a3cef0cf94328d07b2ba570906788"
+  integrity sha512-8H/0dS6VYqBXzVBCo8f4s48TMIkC9UrALfMkXsaNWqKo3P3UQzfE1KZXlBkrhZho2A1iJuxUgGzHSgQvkZwGmg==
+  dependencies:
+    dedent "^0.7.0"
+    plural-forms "^0.5.3"
 
 tty-browserify@0.0.0:
   version "0.0.0"
